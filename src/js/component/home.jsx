@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom';
 const Home = (props) => {
 	console.log(props);
 	return (
-		<div className="text-center bg-dark">
+		<div className="bg-dark d-flex justify-content-center">
 			<div className="text-white">{props.hora1}</div>
 			<div className="text-white">{props.hora}</div>
 			<div className="text-white">{props.minuto1}</div>
